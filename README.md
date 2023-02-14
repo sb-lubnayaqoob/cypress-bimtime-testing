@@ -1,1 +1,1 @@
-# cypress-bimtime-testing
+# cypress-testing-bimtime
