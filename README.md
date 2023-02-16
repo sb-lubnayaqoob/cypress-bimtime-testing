@@ -6,13 +6,11 @@ a repository containing end-to-end automating testing
 
 - [E2E Testing](#E2E Testing)
     - [The Importance of (Test) Automation](#sablono-account-management)
-        - [App Architecture](#app-architecture)
-        - [Folder Structure](#folder-structure)
-- [Shared Components](#shared-components)
-- [Development](#development)
-    - [Run the Repository Code](#run-the-repository-code)
-    - [Linting and Formatting](#linting-and-formatting)
-    - [Testing](#testing)
+    - [The Testing Pyramid](#sablono-account-management)
+    - [Why Cypress](#folder-structure)
+    - [Folder Structure](#run-the-repository-code)
+    - [How to start](#linting-and-formatting)
+    - [Run a Test](#testing)
     - [Build for Production](#build-for-production)
 
 # E2E Testing
@@ -61,6 +59,7 @@ Breakdown of notable folders and their contents:
 
 ### How to Start 
 
+If your system do not have 
    ```shell
    npm install -g npm
    ```
