@@ -21,7 +21,7 @@ a repository containing end-to-end automating testing
 ## The Importance of (Test) Automation
 Test automation is an important part of software development and testing that helps to reduce the time and cost associated with manual testing, while also increasing the accuracy and reliability of the tests. 
 
-### The Test Pyramid
+## The Test Pyramid
 Testing pyramid consists of three layers that your test suite should consist of (bottom to top):
 
 * Unit Tests
@@ -30,6 +30,17 @@ Testing pyramid consists of three layers that your test suite should consist of 
 
 <img src="cypress/images/cypress.jpeg"  width="60%" height="30%">
 
+
+## Why Cypress
+[Cypress](https://docs.cypress.io/guides/overview/why-cypress)  is a next generation front end testing tool built for the modern that is used by developers or QA engineers building web applications using modern JavaScript frameworks. 
+Cypress enables to write all types of tests:
+
+* End-to-end tests
+* Component tests
+* Integration tests
+* Unit tests
+
+<img src="cypress/images/cypresswithnote.jpeg"  width="60%" height="30%">
 
 
 ### Folder Structure
@@ -48,9 +59,10 @@ Breakdown of notable folders and their contents:
 ├─<b>cypress.config.js/</b> Modify configurations here, including for the environment.
 </pre>
 
-### Run the Repository Code
+### How to Start
 
-Breakdown of notable folders and their contents:
+
+
 
 # Shared Components
 
