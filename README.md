@@ -1,6 +1,6 @@
 # Bimtime End-to-End Testing with Cypress 
 
-Monorepo containing end-to-end automating testing 
+a repository containing end-to-end automating testing 
 
 # Table of Contents
 
@@ -46,7 +46,11 @@ Breakdown of notable folders and their contents:
 │ ├─<b>images/</b>
 │ │ ├─<b>localImages/</b>: images used in markdown file.
 ├─<b>cypress.config.js/</b> Modify configurations here, including for the environment.
+</pre>
 
+### Run the Repository Code
+
+Breakdown of notable folders and their contents:
 
 # Shared Components
 
