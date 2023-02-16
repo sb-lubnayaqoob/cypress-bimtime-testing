@@ -20,6 +20,9 @@ Imagine the situation where you have to do manual regression testing for most of
 
 ### The Test Pyramid
 Testing pyramid consists of three layers that your test suite should consist of (bottom to top in the image):
+A good variety of different test procedures ensures a high level of quality. 
+As a foundation for testing, we can use a number of unit tests. On top of that, in the middle of the pyramid, so to speak, are integration tests. 
+End-to-end tests are at the very top, covering the most critical use cases. This third kind of testing will be the focus of this repository.
 
 * Unit Tests
 * Integration Test
