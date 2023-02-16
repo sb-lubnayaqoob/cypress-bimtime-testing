@@ -4,8 +4,8 @@ Monorepo containing end-to-end automating testing
 
 # Table of Contents
 
-- [E2E Testing](#E2E-Testing)
-    - [The Importance of (Test) Automation](#The Importance of (Test) Automation)
+- [E2E Testing](#E2E Testing)
+    - [The Importance of (Test) Automation](#sablono-account-management)
         - [App Architecture](#app-architecture)
         - [Folder Structure](#folder-structure)
 - [Shared Components](#shared-components)
@@ -15,7 +15,7 @@ Monorepo containing end-to-end automating testing
     - [Testing](#testing)
     - [Build for Production](#build-for-production)
 
-# E2E-Testing
+# E2E Testing
 
 
 ## The Importance of (Test) Automation
@@ -24,73 +24,29 @@ Test automation is an important part of software development and testing that he
 ### The Test Pyramid
 Testing pyramid consists of three layers that your test suite should consist of (bottom to top):
 
-<img src="cypress/images/cypress.jpeg"  width="60%" height="30%">
-
 * Unit Tests
 * Integration Test
 * End-to-End Test
 
+<img src="cypress/images/cypress.jpeg"  width="60%" height="30%">
 
-### Dataflow
 
-```mermaid
-flowchart TD
-  Controller{Controller}<-->View((View))
-  Controller-->UIModel[/UI Model/]
-  UIModel-->View
-  Controller<-->Model[/Model/]
-  Controller-->Repo[(Repository)]
-  Model<-->Repo
-```
-
-### Responsibilities
-
-#### View
-
-React component representing the UI. This component contains any code for displaying the interface that a user interacts with. The _*View*_ is "dumb" and only used for user input and for displaying output.
-
-#### Controller
-
-React component for handling all _*View*_ related logic. The _*Controller*_ is the "brains" of the _*View*_, it processes any data or events coming from the _*View*_ and manages the state of the _*View*_.
-
-The _*Controller*_ might map complex data structures to a _*UI Model*_ before passing the data for display in the _*View*_. Similarly, the _*Controller*_ might also communicate with the _*Repositories*_ by mapping data to a relevant _*Model*_ and passing it to a _*Repository*_.
-
-#### UI Model
-
-A class holding data meant for a _*View*_. A _*UI Model*_ can be reused for any _*View*_ and may contain methods for performing various operations on the _*UI Model*_ data.
-
-#### Model
-
-A class that works as a `Data Transfer Object (DTO)` for encapsulating data from and to the _*Repositories*_.
-
-Instead of passing on all the response data from an API call to the application the _*Model*_ is composed of only the relevant response values.
-
-#### Repository
-
-The _*Repositories*_ functions as wrappers around the Sablono Platform API where any interactions with the Sablono Platform API is done via a _*Repository*_.
-
-Data coming from a _*Repository*_ is mapped to a _*Model*_ while data can be passed to a _*Repository*_ either as single parameters or as a _*Model*_ depending on complexity.
 
 ### Folder Structure
 
 Breakdown of notable folders and their contents:
 
 <pre>
-<b>sb-account-mgmt/</b>
-├─<b>src/</b>
-│ ├─<b>contexts/</b>: Various React contexts used for sharing state across components.
-│ ├─<b>hooks/</b>: Various React hooks for reusing functionality that depends on React specific features.
-│ ├─<b>models/</b>: Classes to which Sablono Platform API data gets mapped.
-│ ├─<b>repositories/</b>
-│ │ ├─<b>api/</b>: Constants for the Sablono Platform API resources.
-│ │ ├─<b>mappers/</b>: Mappers for mapping API data to models.
-│ │ └─<b><em>repository-name/</em></b>: Wrappers for Sablono API endpoints.
-│ ├─<b>ui-models/</b>: Classes with data used in <em>Controllers</em> and <em>Views</em>.
-└-└─<b>views/</b>: React components for <em>Views</em> and their logic.
-    └─<b><em>ComponentName/</em></b>
-      ├─<b><em>ComponentName</em>Controller.tsx</b>: Component containing the <em>View</em> related logic.
-      └─<b><em>ComponentName</em>View.tsx</b>: "Dumb" component containing the UI representation.
-</pre>
+<b>cypress-testing-bimtime/</b>
+├─<b>cypress/</b>
+│ ├─<b>fixtures/</b>: Find fixed test data here, which have no relation to the other entities.
+│ ├─<b>integration/</b>: Find the actual tests here.
+│ ├─<b>plugins/</b>: Here extended cypress, whether with existing Cypress plugins or your own.
+│ ├─<b>Support/</b> Here extend Cypress itself. Your own commands and helpers are located here.
+│ ├─<b>images/</b>
+│ │ ├─<b>localImages/</b>: images used in markdown file.
+├─<b>cypress.config.js/</b> Modify configurations here, including for the environment.
+
 
 # Shared Components
 
