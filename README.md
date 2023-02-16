@@ -70,7 +70,7 @@ If your system do not have
   git clone https://github.com/sb-lubnayaqoob/cypress-bimtime-testing
    ```
 
-## Run the Repository Code
+### Run the Repository Code
 
   Install dependencies
 
@@ -78,35 +78,7 @@ If your system do not have
    npm install
    ```
 
-3. Run Web Client Apps
 
-   Running any web client app is done with the `nx serve` command followed by the name of the app, e.g. `sb-account-mgmt`.
-
-   ```shell
-   nx serve <app name>
-   ```
-
-## Linting and Formatting
-
-The code base can be formatted with Prettier to adhere to the ESLint rules by running:
-
-```shell
-nx format:write
-```
-
-## Testing
-
-Testing a specific web client app is done with the name of the app followed by the test command, e.g. `sb-account-mgmt:test`.
-
-```shell
-nx run <app name>:test
-```
-
-Testing all web client apps is done by running:
-
-```shell
-nx test
-```
 
 ## Build for Production
 
