@@ -4,8 +4,8 @@ Monorepo containing end-to-end automating testing
 
 # Table of Contents
 
-- [E2E Testing](#projects)
-    - [Why E2E Testing](#sablono-account-management)
+- [E2E Testing](#E2E-Testing)
+    - [The Importance of (Test) Automation](#The Importance of (Test) Automation)
         - [App Architecture](#app-architecture)
         - [Folder Structure](#folder-structure)
 - [Shared Components](#shared-components)
@@ -15,7 +15,7 @@ Monorepo containing end-to-end automating testing
     - [Testing](#testing)
     - [Build for Production](#build-for-production)
 
-# E2E Testing
+# E2E-Testing
 
 
 ## The Importance of (Test) Automation
