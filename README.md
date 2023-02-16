@@ -3,7 +3,7 @@
 a repository contains automated test suites for sablono web application to reduce the manual effort for end-to-end testing.
 # Table of Contents
 
-- [E2E Testing](#E2E Testing)
+- [E2E Testing](#E2E-Testing)
     - [The Importance of (Test) Automation](#sablono-account-management)
     - [The Testing Pyramid](#sablono-account-management)
     - [Why Cypress](#folder-structure)
