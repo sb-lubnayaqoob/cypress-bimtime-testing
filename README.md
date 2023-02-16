@@ -18,10 +18,10 @@ a repository containing end-to-end automating testing
 # E2E Testing
 
 
-## The Importance of (Test) Automation
+### The Importance of (Test) Automation
 Test automation is an important part of software development and testing that helps to reduce the time and cost associated with manual testing, while also increasing the accuracy and reliability of the tests. 
 
-## The Test Pyramid
+### The Test Pyramid
 Testing pyramid consists of three layers that your test suite should consist of (bottom to top):
 
 * Unit Tests
@@ -31,7 +31,7 @@ Testing pyramid consists of three layers that your test suite should consist of 
 <img src="cypress/images/cypress.jpeg"  width="60%" height="30%">
 
 
-## Why Cypress
+### Why Cypress
 [Cypress](https://docs.cypress.io/guides/overview/why-cypress)  is a next generation front end testing tool built for the modern that is used by developers or QA engineers building web applications using modern JavaScript frameworks. 
 Cypress enables to write all types of tests:
 
@@ -59,26 +59,21 @@ Breakdown of notable folders and their contents:
 ├─<b>cypress.config.js/</b> Modify configurations here, including for the environment.
 </pre>
 
-### How to Start
+### How to Start 
 
-
-
-
-# Shared Components
-
-`Nx Monorepo` allows for sharing components across applications. These components are located in the `libs` directory. Any component that will be copied and reused in more than one project could be considered as a `lib`.
-
-# Development
+   ```shell
+   npm install -g npm
+   ```
+ ```shell
+   brew install node
+   ```
+ ```shell
+  git clone https://github.com/sb-lubnayaqoob/cypress-bimtime-testing
+   ```
 
 ## Run the Repository Code
 
-1. Install the NX CLI if it is not already available.
-
-   ```shell
-   npm install -g nx
-   ```
-
-2. Install dependencies
+  Install dependencies
 
    ```shell
    npm install
