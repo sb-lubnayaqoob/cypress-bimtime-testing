@@ -19,7 +19,7 @@ a repository contains automated test suites for sablono web application to reduc
 Imagine the situation where you have to do manual regression testing for most of the test cases every day and also maintaining deadlines. There test automation plays a vital part in software development and testing that helps to reduce the time and cost associated with manual testing, while also increasing the accuracy and reliability of the tests. 
 
 ### The Test Pyramid
-Testing pyramid consists of three layers that your test suite should consist of (bottom to top):
+Testing pyramid consists of three layers that your test suite should consist of (bottom to top in the image):
 
 * Unit Tests
 * Integration Test
