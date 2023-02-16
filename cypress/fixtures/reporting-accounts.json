@@ -1,0 +1,76 @@
+{
+    "meta": {
+        "count_all": 2,
+        "count_page": 2
+    },
+    "accounts": [
+        {
+            "account_id": "account-123-abc",
+            "mobile_count": 29,
+            "activity_count": 50000,
+            "web_count": 19,
+            "activities": {
+                "count_across_projects": 0,
+                "per_project": [
+                    {
+                        "project_id": "project-123-abc",
+                        "count": 20000
+                    },
+                    {
+                        "project_id": "project-456-def",
+                        "count": 20000
+                    },
+                    {
+                        "project_id": "project-789-ghi",
+                        "count": 10000
+                    }
+                ]
+            },
+            "users": {
+                "count_across_projects": 4,
+                "per_project": [
+                    {
+                        "project_id": "project-123-abc",
+                        "mobile_count": 10,
+                        "web_count": 8
+                    },
+                    {
+                        "project_id": "project-456-def",
+                        "mobile_count": 10,
+                        "web_count": 8
+                    },
+                    {
+                        "project_id": "project-789-ghi",
+                        "mobile_count": 9,
+                        "web_count": 1
+                    }
+                ]
+            }
+        },
+        {
+            "account_id": "account-456-def",
+            "mobile_count": 12,
+            "activity_count": 16,
+            "web_count": 6,
+            "activities": {
+                "count_across_projects": 0,
+                "per_project": [
+                    {
+                        "project_id": null,
+                        "count": 0
+                    }
+                ]
+            },
+            "users": {
+                "count_across_projects": 0,
+                "per_project": [
+                    {
+                        "project_id": null,
+                        "mobile_count": 0,
+                        "web_count": 0
+                    }
+                ]
+            }
+        }
+    ]
+}

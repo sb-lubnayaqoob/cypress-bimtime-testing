@@ -1,0 +1,68 @@
+{
+    "meta": {
+        "count_all": 3,
+        "count_page": 3
+    },
+    "projects": [
+        {
+            "id": "project-123-abc",
+            "code": "",
+            "name": "Project One",
+            "status": "",
+            "desc": "",
+            "created_at": "2022-06-05T18:00:00.000Z",
+            "language": "",
+            "inspect_app_config": {
+                "block_agg_progress": true
+            },
+            "scheduling": {
+                "mode": "",
+                "state": ""
+            },
+            "feature_package": "FULL",
+            "image": {
+                "url": ""
+            }
+        },
+        {
+            "id": "project-456-def",
+            "code": "",
+            "name": "Project Two",
+            "status": "",
+            "desc": "",
+            "created_at": "2022-06-05T18:01:00.000Z",
+            "language": "",
+            "inspect_app_config": {
+                "block_agg_progress": true
+            },
+            "scheduling": {
+                "mode": "",
+                "state": ""
+            },
+            "feature_package": "FULL",
+            "image": {
+                "url": ""
+            }
+        },
+        {
+            "id": "project-789-ghi",
+            "code": "",
+            "name": "Project Three",
+            "status": "",
+            "desc": "",
+            "created_at": "2022-06-05T18:02:00.000Z",
+            "language": "",
+            "inspect_app_config": {
+                "block_agg_progress": true
+            },
+            "scheduling": {
+                "mode": "",
+                "state": ""
+            },
+            "feature_package": "FULL",
+            "image": {
+                "url": ""
+            }
+        }
+    ]
+}

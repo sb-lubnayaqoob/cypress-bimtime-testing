@@ -1,0 +1,22 @@
+{
+    "meta": {
+        "count_all": 2,
+        "count_page": 2
+    },
+    "accounts": [
+        {
+            "id": "account-123-abc",
+            "name": "Talel's Account",
+            "projects": [
+                "project-123-abc",
+                "project-456-def",
+                "project-789-ghi"
+            ]
+        },
+        {
+            "id": "account-456-def",
+            "name": "Mathias's Account",
+            "projects": []
+        }
+    ]
+}
