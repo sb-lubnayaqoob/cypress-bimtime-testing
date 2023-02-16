@@ -4,12 +4,12 @@ a repository contains automated test suites for sablono web application to reduc
 # Table of Contents
 
 - [E2E Testing](#E2E-Testing)
-    - [The Importance of (Test) Automation](#sablono-account-management)
-    - [The Testing Pyramid](#sablono-account-management)
-    - [Why Cypress](#folder-structure)
-    - [Folder Structure](#run-the-repository-code)
-    - [How to start](#linting-and-formatting)
-    - [Run a Test](#testing)
+    - [The Importance of (Test) Automation](#the-importance-of-test-automation)
+    - [The Testing Pyramid](#the-test-pyramid)
+    - [Why Cypress](#the-cypress)
+    - [Folder Structure](#folder-structure)
+    - [How to start](#how-to-start)
+    - [Run a Test](#run-a-test)
     - [Build for Production](#build-for-production)
 
 # E2E Testing
