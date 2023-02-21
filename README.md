@@ -80,12 +80,3 @@ If your system do not have
    npm install
    ```
 
-
-
-## Build for Production
-
-Building any web client app is done with the `nx build` command followed by the name of the app, e.g. `sb-account-mgmt`.
-
-```shell
-nx build <app name>
-```
